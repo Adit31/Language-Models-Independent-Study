@@ -1,1 +1,1 @@
-# Language Models Independent Study - Winter 2023
+# Language Models Independent Study
