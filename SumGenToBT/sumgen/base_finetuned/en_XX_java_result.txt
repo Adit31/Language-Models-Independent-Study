@@ -1,0 +1,9 @@
+/bin/sh: 1: /content/drive/MyDrive/SumGenToBT/evaluation/multi-bleu.perl: Permission denied
+WARNING:__main__:Impossible to parse BLEU score! ""
+EM: 0.00
+BLEU: 0.87
+ngram_match_score: 0.86
+weighted_ngram_match_score: 2.04
+syntax_match_score: 8.88
+dataflow_match_score: 23.38
+CodeBLEU: 8.79

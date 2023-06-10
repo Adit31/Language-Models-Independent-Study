@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/pl_eval.py", line 135, in <module>
+    main()
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/pl_eval.py", line 67, in main
+    refs = [x.strip() for x in open(args.references, 'r', encoding='utf-8').readlines()]
+FileNotFoundError: [Errno 2] No such file or directory: '/content/drive/MyDrive/SumGenToBT/data/bt/eval_data/test.python-java.python'
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/compute_ca.py", line 121, in <module>
+    main(params)
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/compute_ca.py", line 61, in main
+    roberta_mode=False
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/utils.py", line 405, in eval_function_output
+    functions = list(zip(*[read_file_lines(path) for path in hyp_paths]))
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/utils.py", line 405, in <listcomp>
+    functions = list(zip(*[read_file_lines(path) for path in hyp_paths]))
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/utils.py", line 469, in read_file_lines
+    with open(hyp_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'base_java_python_b10/test.output'
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/classify_errors.py", line 206, in <module>
+    classify_python_errors(args)
+  File "/content/drive/MyDrive/SumGenToBT/evaluation/classify_errors.py", line 113, in classify_python_errors
+    with open(args.logfile, encoding='utf8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'base_java_python_b10/hyp.java-python.test_beam0.out.txt'
