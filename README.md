@@ -1,1 +1,1 @@
-# Language Models Independent Study
+# Large Language Models Independent Study
